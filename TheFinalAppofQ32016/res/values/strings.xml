@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">The Final</string>
+    <string name="lblSushi">Sushi!</string>
+    <string name="nameSushi">Sushi Name</string>
+    <string name="describeSushi">Describe Sushi</string>
+    <string name="btnAdd">Add Sushi!</string>
+    <string name="btnIMG">Add Sushi Picture!</string>
+    <string name="sushiList">Sushi List</string>
+    <string name="btnBack">Add a Roll!</string>
+    <string name="btnDelete">Delete Sushi</string>
+
+    <string name="cali">California Roll</string>
+    <string name="dragon">Dragon Roll</string>
+    <string name="hot">Hot Night Roll</string>
+    <string name="hungry">Hungry Roll</string>
+    <string name="phil">Philadelphia Roll</string>
+
+    <string name="calidis">Crab, nori, cucumber, and sesame seeds.</string>
+    <string name="dragondis">Eel, crab, and cucumber inside. Avocado outside.</string>
+    <string name="hotdis">Shrimp tempura, cucumber, and spicy tuna.</string>
+    <string name="hungrydis">Spicy tuna inside. Crispy seaweed and tempura outside.</string>
+    <string name="phildis">Salmon, avocado, asparagus, and cream cheese.</string>
+
+</resources>

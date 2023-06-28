@@ -1,0 +1,37 @@
+*._*
+*.[oad]
+*.hhbc
+*.rej
+*.orig
+.merlin
+.mkdir
+.DS_Store
+.log
+/build
+/_build
+/deps
+
+/bin
+/output_gd/
+
+# tags files
+tags
+TAGS
+
+# eclipse files
+.project
+.cproject
+.settings
+
+# vim files
+.*.swp
+.*.swo
+*.vimrc
+.syntastic_cpp_config
+*~
+
+# vscode
+.vscode
+
+# windows files
+*.exe

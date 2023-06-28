@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eric.photoprints.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:id="@+id/app_name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/num"
+        android:layout_below="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:hint="Number of Prints"
+        android:gravity="center_horizontal"
+        android:textSize="28sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/num"
+        android:id="@+id/pic_size_array">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 X 6 (19 cents)"
+            android:id="@+id/fourx6"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 X 7 (49 cents)"
+            android:id="@+id/fivex7"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 X 10 (79 cents)"
+            android:id="@+id/eightx10"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnOrder"
+        android:id="@+id/btnOrder"
+        android:textSize="28sp"
+        android:layout_below="@+id/pic_size_array"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/result"
+        android:hint="result"
+        android:layout_below="@+id/btnOrder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:textSize="28sp" />
+</RelativeLayout>

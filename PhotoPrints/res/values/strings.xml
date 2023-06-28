@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Phone Photo Prints</string>
+    <string name="num"></string>
+    <string name="btnOrder">Order Prints</string>
+    <string name="result"></string>
+    <string-array>
+        name="pic_size_array">
+        <item>fourx6</item>
+        <item>fivex7</item>
+        <item>eightx10</item>
+    </string-array>>
+</resources>
